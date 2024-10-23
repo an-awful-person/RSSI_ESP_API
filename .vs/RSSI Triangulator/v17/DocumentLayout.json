@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|c:\\users\\black\\source\\repos\\rssi triangulator\\rssi triangulator\\services\\itriangulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|solutionrelative:rssi triangulator\\services\\itriangulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|c:\\users\\black\\source\\repos\\rssi triangulator\\rssi triangulator\\services\\triangulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|solutionrelative:rssi triangulator\\services\\triangulationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|c:\\users\\black\\source\\repos\\rssi triangulator\\rssi triangulator\\controllers\\networksscancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|solutionrelative:rssi triangulator\\controllers\\networksscancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|c:\\users\\black\\source\\repos\\rssi triangulator\\rssi triangulator\\models\\scannednetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|solutionrelative:rssi triangulator\\models\\scannednetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|c:\\users\\black\\source\\repos\\rssi triangulator\\rssi triangulator\\models\\networkrelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|solutionrelative:rssi triangulator\\models\\networkrelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|c:\\users\\black\\source\\repos\\rssi triangulator\\rssi triangulator\\models\\networkmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|solutionrelative:rssi triangulator\\models\\networkmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|c:\\users\\black\\source\\repos\\rssi triangulator\\rssi triangulator\\models\\networkscan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|solutionrelative:rssi triangulator\\models\\networkscan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|c:\\users\\black\\source\\repos\\rssi triangulator\\rssi triangulator\\models\\networkping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|solutionrelative:rssi triangulator\\models\\networkping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|c:\\users\\black\\source\\repos\\rssi triangulator\\rssi triangulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{098E788D-A2D3-42FD-B022-CCEE9BA18616}|RSSI Triangulator\\RSSI Triangulator.csproj|solutionrelative:rssi triangulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NetworkRelationship.cs",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Models\\NetworkRelationship.cs",
+              "RelativeDocumentMoniker": "RSSI Triangulator\\Models\\NetworkRelationship.cs",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Models\\NetworkRelationship.cs",
+              "RelativeToolTip": "RSSI Triangulator\\Models\\NetworkRelationship.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T00:52:51.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NetworkModule.cs",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Models\\NetworkModule.cs",
+              "RelativeDocumentMoniker": "RSSI Triangulator\\Models\\NetworkModule.cs",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Models\\NetworkModule.cs",
+              "RelativeToolTip": "RSSI Triangulator\\Models\\NetworkModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T00:27:37.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScannedNetwork.cs",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Models\\ScannedNetwork.cs",
+              "RelativeDocumentMoniker": "RSSI Triangulator\\Models\\ScannedNetwork.cs",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Models\\ScannedNetwork.cs",
+              "RelativeToolTip": "RSSI Triangulator\\Models\\ScannedNetwork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T00:19:59.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Program.cs",
+              "RelativeDocumentMoniker": "RSSI Triangulator\\Program.cs",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Program.cs",
+              "RelativeToolTip": "RSSI Triangulator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T10:19:15.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TriangulationService.cs",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Services\\TriangulationService.cs",
+              "RelativeDocumentMoniker": "RSSI Triangulator\\Services\\TriangulationService.cs",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Services\\TriangulationService.cs",
+              "RelativeToolTip": "RSSI Triangulator\\Services\\TriangulationService.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAA+wJUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T10:15:04.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NetworksScanController.cs",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Controllers\\NetworksScanController.cs",
+              "RelativeDocumentMoniker": "RSSI Triangulator\\Controllers\\NetworksScanController.cs",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Controllers\\NetworksScanController.cs",
+              "RelativeToolTip": "RSSI Triangulator\\Controllers\\NetworksScanController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAGcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T10:01:35.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NetworkPing.cs",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Models\\NetworkPing.cs",
+              "RelativeDocumentMoniker": "RSSI Triangulator\\Models\\NetworkPing.cs",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Models\\NetworkPing.cs",
+              "RelativeToolTip": "RSSI Triangulator\\Models\\NetworkPing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T09:56:41.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NetworkScan.cs",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Models\\NetworkScan.cs",
+              "RelativeDocumentMoniker": "RSSI Triangulator\\Models\\NetworkScan.cs",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Models\\NetworkScan.cs",
+              "RelativeToolTip": "RSSI Triangulator\\Models\\NetworkScan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T09:52:37.694Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ITriangulationService.cs",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Services\\ITriangulationService.cs",
+              "RelativeDocumentMoniker": "RSSI Triangulator\\Services\\ITriangulationService.cs",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\RSSI Triangulator\\RSSI Triangulator\\Services\\ITriangulationService.cs",
+              "RelativeToolTip": "RSSI Triangulator\\Services\\ITriangulationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T10:18:17.925Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

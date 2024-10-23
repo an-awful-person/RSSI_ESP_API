@@ -1,0 +1,312 @@
+[
+  {
+    "ContainingType": "RSSI_Triangulator.Controllers.NetworksScanController",
+    "Method": "GetAllAverageRSSI",
+    "RelativePath": "api/NetworksScan/all_average_RSSI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "seconds",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RSSI_Triangulator.Models.NetworkRelationship, RSSI Triangulator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAllAverageRSSI"
+  },
+  {
+    "ContainingType": "RSSI_Triangulator.Controllers.NetworksScanController",
+    "Method": "GetAllAverageRSSIFrom",
+    "RelativePath": "api/NetworksScan/all_average_RSSI_from",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scanningSSID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "seconds",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RSSI_Triangulator.Models.NetworkRelationship, RSSI Triangulator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAllAverageRSSIFrom"
+  },
+  {
+    "ContainingType": "RSSI_Triangulator.Controllers.NetworksScanController",
+    "Method": "GetAverageRSSI",
+    "RelativePath": "api/NetworksScan/average",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scanningSSID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "scannedSSID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "seconds",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RSSI_Triangulator.Models.NetworkRelationship",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAverageRSSI"
+  },
+  {
+    "ContainingType": "RSSI_Triangulator.Controllers.NetworksScanController",
+    "Method": "GetNetworkScansBetween",
+    "RelativePath": "api/NetworksScan/between",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "start",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "end",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RSSI_Triangulator.Models.ScannedNetwork, RSSI Triangulator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetNetworkScansBetween"
+  },
+  {
+    "ContainingType": "RSSI_Triangulator.Controllers.NetworksScanController",
+    "Method": "GetLatestScans",
+    "RelativePath": "api/NetworksScan/latest_scans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "seconds",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RSSI_Triangulator.Models.ScannedNetwork, RSSI Triangulator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetLatestScans"
+  },
+  {
+    "ContainingType": "RSSI_Triangulator.Controllers.NetworksScanController",
+    "Method": "GetLatestScansFrom",
+    "RelativePath": "api/NetworksScan/latest_scans_from",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scanningSSID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "seconds",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RSSI_Triangulator.Models.ScannedNetwork, RSSI Triangulator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetLatestScansFrom"
+  },
+  {
+    "ContainingType": "RSSI_Triangulator.Controllers.NetworksScanController",
+    "Method": "GetNetworkScans",
+    "RelativePath": "api/NetworksScan/network_modules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RSSI_Triangulator.Models.NetworkModule, RSSI Triangulator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetNetworkScans"
+  },
+  {
+    "ContainingType": "RSSI_Triangulator.Controllers.NetworksScanController",
+    "Method": "PostNetworkScan",
+    "RelativePath": "api/NetworksScan/network_scan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scan",
+        "Type": "RSSI_Triangulator.Models.NetworkScan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostNetworkScan"
+  },
+  {
+    "ContainingType": "RSSI_Triangulator.Controllers.NetworksScanController",
+    "Method": "GetScannedSSIDs",
+    "RelativePath": "api/NetworksScan/scanned_ssids_by",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scanningSSID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String[]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetScannedSSIDsBy"
+  },
+  {
+    "ContainingType": "RSSI_Triangulator.Controllers.NetworksScanController",
+    "Method": "GetScansByFrom",
+    "RelativePath": "api/NetworksScan/scans_from_by",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scanningSSID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "scannedSSID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RSSI_Triangulator.Models.ScannedNetwork, RSSI Triangulator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetScansFromBy"
+  },
+  {
+    "ContainingType": "RSSI_Triangulator.Controllers.NetworksScanController",
+    "Method": "FoundSources",
+    "RelativePath": "api/NetworksScan/sources",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String[]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetNetworkSources"
+  }
+]

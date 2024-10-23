@@ -1,0 +1,6 @@
+@RSSI_Triangulator_HostAddress = http://192.168.2.195:5000
+
+GET {{RSSI_Triangulator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
