@@ -33,6 +33,17 @@ namespace RSSI_Triangulator.Controllers
             return Ok(_triangulationService.GetNetworkModules());
         }
 
+        [HttpPost("set_bluetooth_network_scan", Name = "PostBluetoothNetworkScan")]
+        public IActionResult PostNetworkScan([FromBody] NetworkScan scan)
+        {
+            if (scan == null)
+            {
+                return BadRequest("No data acquired");
+            }
+            _triangulationService.AddNetworkScan(scan, true);
+            return Ok(_triangulationService.GetNetworkModules(true));
+        }
+
         [HttpGet("network_modules", Name = "GetNetworkScans")]
         public List<NetworkModule> GetNetworkScans()
         {

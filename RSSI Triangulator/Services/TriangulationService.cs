@@ -6,15 +6,18 @@ namespace RSSI_Triangulator.Services
     public class TriangulationService : ITriangulationService
     {  
         private readonly List<NetworkModule> _networkModules = new List<NetworkModule>();
+        private readonly List<NetworkModule> _networkModulesBluetooth = new List<NetworkModule>();
         private readonly HashSet<string> _knownModules = new HashSet<string>();
         //Need to know distance between known modules.
         //Need a way to find the average RSSI between a connection.
-        public void AddNetworkScan(NetworkScan scan)
+        public void AddNetworkScan(NetworkScan scan, bool isBluetooth = false)
         {
-            NetworkModule? foundModule = _networkModules.Find(network => network.MacAddress.Equals(scan.MacAddress));
+            var useModules = isBluetooth ? _networkModulesBluetooth : _networkModules;
+
+            NetworkModule? foundModule = useModules.Find(network => network.MacAddress.Equals(scan.MacAddress));
             if (foundModule == null){
                 foundModule = new NetworkModule() { MacAddress = scan.MacAddress };
-                _networkModules.Add(foundModule);
+                useModules.Add(foundModule);
             }
 
             scan.NetworkPings.ToList().ForEach(ping => {
@@ -32,9 +35,9 @@ namespace RSSI_Triangulator.Services
             _knownModules.Add(scan.MacAddress);
         }
 
-        public List<NetworkModule> GetNetworkModules()
+        public List<NetworkModule> GetNetworkModules(bool isBluetooth = false)
         {
-            return _networkModules;
+            return isBluetooth?_networkModulesBluetooth: _networkModules;
         }
 
         public List<ScannedNetwork>? GetNetworkScansBetween(string module, DateTime start, DateTime end)
